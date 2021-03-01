@@ -20,6 +20,6 @@ test_loader = torch.utils.data.DataLoader(test, batch_size=224, shuffle=True)
 
 weather_net = WeatherNet()
 
-test_loss_history, test_accuracy_history = training(weather_net, train_loader, test_loader)
+test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history = training(weather_net, train_loader, test_loader)
 
-vizualization_plt(test_loss_history, test_accuracy_history)
+vizualization_plt(test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history)
