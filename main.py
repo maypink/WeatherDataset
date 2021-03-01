@@ -1,8 +1,8 @@
 import torch
 import torchvision
 import data_preparation
-from WeatherDataset import WeatherDataset
-from WeatherNet import WeatherNet
+from weather_dataset import WeatherDataset
+from weather_net import WeatherNet
 from training import training
 from vizualization import vizualization_plt
 
