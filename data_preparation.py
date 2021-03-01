@@ -17,6 +17,7 @@ def reprod_init():
 def get_data():
     x_data = []
     y_data = []
+    print('Reading images...')
     for (dirpath, dirname, filenames) in os.walk('dataset2'):
         for filename in filenames:
             if filename.endswith('jpg'):
