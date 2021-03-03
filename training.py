@@ -1,7 +1,7 @@
 import torch
 from torch.utils.tensorboard import SummaryWriter
 
-def training(weather_net, train_loader, test_loader):
+def training(weather_net, train_loader, test_loader, device):
 
     loss = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(weather_net.parameters(), lr=1.0e-3)
@@ -22,8 +22,8 @@ def training(weather_net, train_loader, test_loader):
         for batch_idx, (data, label) in enumerate(train_loader):
             optimizer.zero_grad()
 
-            X_batch = data.permute(0, 3, 1, 2)
-            y_batch = label
+            X_batch = data.permute(0, 3, 1, 2).to(device)
+            y_batch = label.to(device)
 
             preds = weather_net.forward(X_batch.float())
 
@@ -38,6 +38,8 @@ def training(weather_net, train_loader, test_loader):
             optimizer.step()
 
         for batch_idx, (data, label) in enumerate(test_loader):
+            data = data.to(device)
+            label = label.to(device)
             test_preds = weather_net.forward(data.permute(0, 3, 1, 2).float())
             with torch.no_grad():
                 cur_loss = loss(test_preds, label)
