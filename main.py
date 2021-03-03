@@ -22,6 +22,8 @@ test_loader = torch.utils.data.DataLoader(test, batch_size=224, shuffle=True)
 
 weather_net = WeatherNet()
 
+weather_net = weather_net.to(device)
+
 test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history = training(weather_net, train_loader, test_loader, device)
 
 vizualization_plt(test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history)
