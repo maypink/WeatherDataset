@@ -4,6 +4,8 @@ https://data.mendeley.com/datasets/4drtyfjtfy/1?ref=hackernoon.com
 
 ### Graphs from TensorBoard
 
+<p style="text-align: center;">Centered text</p>
+
 **Accuracy/test**
 ![Accuracy/test](https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_test%20(1).svg "Accuracy/test")
 
