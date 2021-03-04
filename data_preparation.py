@@ -20,19 +20,15 @@ def get_data():
     print('Reading images...')
     for (dirpath, dirname, filenames) in os.walk('dataset2'):
         for filename in filenames:
-            if filename.endswith('jpg'):
-                label = ''
-                for i in filename:
-                    if i.isalpha():
-                        label += i
-                    else:
-                        break
-                assert label in ['sunrise', 'rain', 'cloudy', 'shine']
-                filepath = os.path.join(dirpath, filename)
-                image = imread(filepath)
-                if len(image.shape) == 3 and image.shape[2] == 3:
-                    x_data.append(filepath)
-                    y_data.append(label)
+            label = ''
+            for i in filename:
+                if i.isalpha():
+                    label += i
+                else:
+                    break
+            filepath = os.path.join(dirpath, filename)
+            x_data.append(filepath)
+            y_data.append(label)
 
     y_data[:] = LabelEncoder().fit_transform(y_data[:])
     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, train_size=0.8)
