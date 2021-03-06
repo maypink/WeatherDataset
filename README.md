@@ -17,13 +17,5 @@ Then run the [main](https://github.com/maypink/WeatherDataset/blob/main/main.py)
 
 ## Graphs from TensorBoard
 
-<table><tr>
-<td> <img src="https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_test%20(1).svg" alt="Drawing" style="width: 350px;"/> </td>
-<td> <img src="https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_train%20(1).svg" alt="Drawing" style="width: 350px;"/> </td>
-</tr></table>
-
-
-  Loss/test                                                                          |                                     Loss/train
------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------:
-![Loss/test](https://github.com/maypink/WeatherDataset/blob/main/images/Loss_test%20(1).svg "Loss/test") |  ![Loss/train](https://github.com/maypink/WeatherDataset/blob/main/images/Loss_train%20(1).svg "Loss/train")
-
+<p align="left"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_test%20(1).svg" align="left" width="330"></p>
+<p align="right"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_test%20(1).svg" align="right" width="330"></p>
