@@ -17,9 +17,8 @@ Then run the [main](https://github.com/maypink/WeatherDataset/blob/main/main.py)
 
 ## Graphs from TensorBoard
 
-
-Accuracy/test | Accuracy/train
-- | :-:
+  Accuracy/test                                                                      |                                     Accuracy/train
+------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------:
 ![Accuracy/test](https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_test%20(1).svg "Accuracy/test")  |  ![Accuracy/train](https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_train%20(1).svg "Accuracy/train")
 
 
