@@ -17,10 +17,10 @@ Then run the [main](https://github.com/maypink/WeatherDataset/blob/main/main.py)
 
 ## Graphs from TensorBoard
  
-<p align="left"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Accuracy_train%20(1).svg" align="left" width="400"></p>
-<p align="right"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Accuracy_test%20(1).svg" align="right" width="400"></p>
+<p align="left"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Accuracy_train%20(1).svg" align="left" width="350"></p>
+<p align="right"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Accuracy_test%20(1).svg" align="right" width="350"></p>
 
 
 
-<p align="left"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_train%20(1).svg" align="left" width="400"></p>
-<p align="right"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_test%20(1).svg" align="right" width="400"></p>
+<p align="left"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_train%20(1).svg" align="left" width="350"></p>
+<p align="right"><img src="https://raw.githubusercontent.com/maypink/WeatherDataset/2607017fae32425f58c6632c0cfbe72fcedde076/images/Loss_test%20(1).svg" align="right" width="350"></p>
