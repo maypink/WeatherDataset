@@ -23,7 +23,7 @@ Then run the [main](https://github.com/maypink/WeatherDataset/blob/main/main.py)
 ![Accuracy/test](https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_test%20(1).svg "Accuracy/test")  |  ![Accuracy/train](https://github.com/maypink/WeatherDataset/blob/main/images/Accuracy_train%20(1).svg "Accuracy/train")
 
 
-                                  Loss/test                                          |                                     Loss/train
+  Loss/test                                                                          |                                     Loss/train
 ------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------:
 ![Loss/test](https://github.com/maypink/WeatherDataset/blob/main/images/Loss_test%20(1).svg "Loss/test") |  ![Loss/train](https://github.com/maypink/WeatherDataset/blob/main/images/Loss_train%20(1).svg "Loss/train")
 
