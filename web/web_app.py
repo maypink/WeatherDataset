@@ -12,7 +12,7 @@ import uuid
 
 define("port", default=8886)
 
-def load_model(model_path='weathernet.pkl'):
+def load_model(model_path='../weathernet.pkl'):
     path = os.path.abspath(model_path)
     return load(path)
 
@@ -25,7 +25,7 @@ def soft_max(predict):
         probability.append(math.exp(i) / sum)
     return probability
 
-def prediction(picture_path = 'work_with_data/dataset2/cloudy2.jpg'):
+def prediction(picture_path = '../work_with_data/dataset2/cloudy20.jpg'):
     weather_model = load_model()
     picture = cv2.resize(imread(picture_path), (64, 64))
     predict = weather_model(torch.tensor(picture[None, ...]).float().permute(0, 3, 1, 2))[0]
