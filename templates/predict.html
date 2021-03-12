@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+<form action="/predict" method="POST">
+    <p><h3>Path to the image:</h3> <input name="picture_path" type="text"><br></p>
+    <p></p>
+    <input type="submit" id='predict' class='predict'value="Predict">
+    <style>.predict {
+    height:35px;
+    width:100px;
+    font:12pt Arial, Helvetica, sans-serif;
+    text-align:center
+}</style>
+
+</form>
+<hr>
+<h2>Distribution of probabilities:</h2>
+<h3>Cloudy: {{ prediction[0] }}</h3>
+<h3>Rain: {{ prediction[1] }}</h3>
+<h3>Shine: {{ prediction[2] }}</h3>
+<h3>Sunrise: {{ prediction[3] }}</h3>
+<h2>Predicted class:</h2>
+<h3>{{ predicted_class }}</h3>
+<hr>
+{% end %}
