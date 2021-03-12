@@ -18,7 +18,7 @@ def get_data():
     x_data = []
     y_data = []
     print('Reading images...')
-    for (dirpath, dirname, filenames) in os.walk('dataset2'):
+    for (dirpath, dirname, filenames) in os.walk('work_with_data/dataset2'):
         for filename in filenames:
             label = ''
             for i in filename:

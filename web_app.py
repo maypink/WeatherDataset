@@ -4,7 +4,7 @@ from tornado.options import define, options
 import os
 from joblib import dump, load
 from skimage.io import imread
-from weather_net import WeatherNet
+from model.weather_net import WeatherNet
 import cv2
 import torch
 import math
@@ -25,7 +25,7 @@ def soft_max(predict):
         probability.append(math.exp(i) / sum)
     return probability
 
-def prediction(picture_path = 'dataset2/cloudy2.jpg'):
+def prediction(picture_path = 'work_with_data/dataset2/cloudy2.jpg'):
     weather_model = load_model()
     picture = cv2.resize(imread(picture_path), (64, 64))
     predict = weather_model(torch.tensor(picture[None, ...]).float().permute(0, 3, 1, 2))[0]

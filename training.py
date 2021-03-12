@@ -18,7 +18,7 @@ def training(weather_net, train_loader, test_loader, device):
 
     print('Training had started...')
 
-    for epoch in range(500):
+    for epoch in range(10):
         for batch_idx, (data, label) in enumerate(train_loader):
             optimizer.zero_grad()
 
