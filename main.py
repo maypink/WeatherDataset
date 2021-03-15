@@ -5,7 +5,6 @@ from work_with_data.weather_dataset import WeatherDataset
 from model.weather_net import WeatherNet
 from training import training
 from vizualization import vizualization_plt
-import joblib
 
 data_preparation.reprod_init()
 
@@ -27,6 +26,6 @@ weather_net = weather_net.to(device)
 
 test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history = training(weather_net, train_loader, test_loader, device)
 
-joblib.dump(weather_net, 'weathernet.pkl')
+torch.save(weather_net.state_dict(), 'weathernet.pt')
 
 vizualization_plt(test_loss_history, test_accuracy_history, train_loss_history, train_accuracy_history)

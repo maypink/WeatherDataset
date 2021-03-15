@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block body %}
-<form action="/predict" method="POST">
-    <p><h3>Path to the image:</h3> <input name="picture_path" type="text"><br></p>
+<form enctype="multipart/form-data" action="/predict" method="POST">
+    <p><h3>Choose the image</h3> <input type="text" name="picture_path"><br></p>
     <p></p>
     <input type="submit" id='predict' class='predict'value="Predict">
     <style>.predict {
