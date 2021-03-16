@@ -1,4 +1,5 @@
 import torch
+from scipy.special import softmax
 
 class WeatherNet(torch.nn.Module):
     def __init__(self):
@@ -50,3 +51,9 @@ class WeatherNet(torch.nn.Module):
         x = self.fc3(x)
 
         return x
+
+    def prediction(self, img):
+        prediction_img = self(img)
+        probabilities = list(softmax(prediction_img.detach().numpy()))
+        return probabilities
+

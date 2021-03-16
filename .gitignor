@@ -1,7 +1,11 @@
-.idea/**
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# downloaded dataset
+work_with_data/dataset2/
+
+.idea/
 
 *.xml
-
-__pycache__
-
-*.pyc
+*.iml
