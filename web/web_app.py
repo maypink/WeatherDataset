@@ -46,8 +46,7 @@ class PredictHandler(tornado.web.RequestHandler):
         pred_index = predict.index(max(predict))
         dict_prediction = {1: 'cloudy', 2: 'rain', 3: 'shine', 4:'sunrise'}
         pred_class = dict_prediction[pred_index+1]
-        self.write(json.dumps({'Distribution of probabilities': str(predict[0])}))
-        self.write(json.dumps({'Predicted class': pred_class }))
+        self.write(json.dumps({'Distribution of probabilities': str(predict[0]), 'Predicted class': pred_class }))
         #self.render("predict.html", prediction = predict, predicted_class = pred_class)
 
 class Application(tornado.web.Application):
