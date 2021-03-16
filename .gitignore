@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# downloaded dataset
+work_with_data/dataset2/
+
+# editor, os cache directory
+.idea/
+
+# tensorboard logs
+runs/
+
+*.xml
+*.iml 
+*.log

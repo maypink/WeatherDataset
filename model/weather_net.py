@@ -50,3 +50,9 @@ class WeatherNet(torch.nn.Module):
         x = self.fc3(x)
 
         return x
+
+    def prediction(self, img):
+        prediction_img = self.forward(img)
+        probabilities = list(torch.nn.functional.softmax(torch.tensor(((prediction_img.detach().numpy())))))
+        return probabilities
+
