@@ -5,7 +5,8 @@ __pycache__/
 # downloaded dataset
 work_with_data/dataset2/
 
+# editor, os cache directory
 .idea/
 
 *.xml
-*.iml
+*.iml 

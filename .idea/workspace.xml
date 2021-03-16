@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d890caed-0c65-49c7-96db-dff05d9e9b4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/weather_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/weather_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weathernet.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/web_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytorch_classification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,22 +167,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1615902764749">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1615905539923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615902764749" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1615902764749">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615905539923" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1615905539923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615902764749" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1615902764749">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615905539923" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1615905539923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615902764749" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1615902764749">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615905539923" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1615905539923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615902764749" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615905539923" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1615899751193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
